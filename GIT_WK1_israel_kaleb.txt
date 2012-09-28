@@ -1,3 +1,3 @@
-https://github.com/kalebisrael/WSD
+http://kalebisrael.github.com/WSD/MySite_israel_kaleb/
 
-https://github.com/kalebisrael/WSD/blob/gh-pages/index.html
+https://github.com/kalebisrael/WSD/blob/gh-pages
