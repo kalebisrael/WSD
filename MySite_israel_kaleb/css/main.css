@@ -14,6 +14,7 @@ header{
 	background:#222;
 	padding:4px 0;
 	overflow:hidden;
+	border-bottom:1px solid #333;
 }
 
 h1{
@@ -65,10 +66,79 @@ nav a:active{
 	background:#333;
 }
 
+/* --------- CTA Style ---------- */
+
+#cta{
+	overflow:hidden;
+	background:rgba(15,15,15,0.9);
+	padding:4px 25px 10px;
+}
+
+#cta img{
+	float:left;
+	padding-right:10px;
+}
+
+#cta h2{
+	color:#fff;
+	text-shadow:1px 2px 1px #000;
+}
+
+#cta blockquote, #cta p{
+	color:#ddd;
+	padding:0;
+	margin:0;
+}
+
+#cta p{
+	text-align:right;
+}
+
+/* --------- Gallery Style ------ */
+
+.gallery{
+	list-style-type:none;
+	width:400px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.gallery li{
+	float:left;
+	margin:0 10px 10px 0;
+	padding:0;
+}
+
+.gallery a{
+	border:5px solid #fff;
+	display:block;
+	width:160px;
+	height:100px;
+	outline:0;
+}
+
+.gallery a:hover{
+	border-color:orange;
+}
+
+/* --------- Membership Style --- */
+
+#plans{
+	clear:both;
+}
+
 /* --------- General Style ------ */
 
 nav a, h2, h3{
 	font-family: 'Alegreya SC', serif;
+}
+
+h2{
+	font-size:24px;
+	text-shadow:1px 2px 1px #fff;
+	margin-bottom:0;
+	padding-bottom:10px;
 }
 
 #main{
@@ -78,6 +148,42 @@ nav a, h2, h3{
 	padding:0;
 }
 
+#content{
+	padding:0 20px;
+}
+
 .italics{
 	font-style:italic;
+}
+
+.topbtn a {
+	display:inline;
+	float:right;
+	border-radius:6px;
+	padding:5px;
+	color: #fef4e9;
+	text-decoration:none;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.topbtn a:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.topbtn a:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.desc{
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
 }
