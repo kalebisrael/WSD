@@ -149,6 +149,62 @@ article, aside{
 	clear:both;
 }
 
+#plans{
+	float:left;
+}
+
+#signup{
+	float:right;
+}
+
+#plans,#signup{
+	width:50%;
+}
+
+table{
+	border-collapse:collapse;
+	width:90%;
+	margin:0 auto 5%;
+}
+
+td{
+	border:1px solid #fff;
+	padding:0.3em;
+	text-align:center;
+}
+
+th{
+	padding:0.3em;
+	font-size:1.4em;
+}
+
+.green{
+	background:green;
+	color:#fff;
+}
+
+input[type=text],textarea{
+	width:100%;
+}
+
+input[type=text]:focus,textarea:focus{
+	background-color:#fffcb3;
+}
+
+form p{
+	display:inline;
+}
+
+/* --------- Footer Style ------ */
+
+footer{
+	clear:both;
+}
+
+footer ul{
+	padding-bottom:15px;
+}
+
 /* --------- General Style ------ */
 
 nav a, h2, h3{
@@ -225,10 +281,21 @@ blockquote{
 
 @media screen and (min-width:480px) and (max-width:767px){
 	/*tablet*/
+	.desc{
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+	body{
+		background:none;
+	}
 }
 
 @media screen and (max-width:479px){
 	/*mobile*/
+	body{
+		background:none;
+	}
 	h1{
 		float:none;
 		margin:0 auto;
@@ -251,5 +318,9 @@ blockquote{
 		-moz-column-count:1;
 		-webkit-column-count:1;
 		column-count:1;
+	}
+	#plans,#signup{
+		width:100%;
+		float:none;
 	}
 }
